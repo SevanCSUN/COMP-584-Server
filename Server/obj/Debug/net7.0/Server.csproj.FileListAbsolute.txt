@@ -31,3 +31,6 @@
 /Users/sevan/server/Server/obj/Debug/net7.0/Server.pdb
 /Users/sevan/server/Server/obj/Debug/net7.0/Server.genruntimeconfig.cache
 /Users/sevan/server/Server/obj/Debug/net7.0/ref/Server.dll
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\obj\Debug\net7.0\Server.dll
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\obj\Debug\net7.0\refint\Server.dll
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\obj\Debug\net7.0\Server.pdb
