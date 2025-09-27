@@ -1,0 +1,15 @@
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\bin\Debug\net9.0\WorldModel.deps.json
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\bin\Debug\net9.0\WorldModel.runtimeconfig.json
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\bin\Debug\net9.0\WorldModel.dll
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\bin\Debug\net9.0\WorldModel.pdb
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\obj\Debug\net9.0\WorldModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\obj\Debug\net9.0\WorldModel.AssemblyInfoInputs.cache
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\obj\Debug\net9.0\WorldModel.AssemblyInfo.cs
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\obj\Debug\net9.0\WorldModel.csproj.CoreCompileInputs.cache
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\obj\Debug\net9.0\WorldModel.sourcelink.json
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\obj\Debug\net9.0\WorldModel.dll
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\obj\Debug\net9.0\refint\WorldModel.dll
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\obj\Debug\net9.0\WorldModel.pdb
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\obj\Debug\net9.0\WorldModel.genruntimeconfig.cache
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\obj\Debug\net9.0\ref\WorldModel.dll
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\obj\Debug\net9.0\WorldModel.csproj.AssemblyReference.cache

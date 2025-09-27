@@ -28,7 +28,6 @@ C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\obj\Debug\net9.0
 C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\obj\Debug\net9.0\Server.csproj.Up2Date
 C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\obj\Debug\net9.0\Server.dll
 C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\obj\Debug\net9.0\refint\Server.dll
