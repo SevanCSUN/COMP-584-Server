@@ -13,3 +13,5 @@ C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\obj\Debug\ne
 C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\obj\Debug\net9.0\WorldModel.genruntimeconfig.cache
 C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\obj\Debug\net9.0\ref\WorldModel.dll
 C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\obj\Debug\net9.0\WorldModel.csproj.AssemblyReference.cache
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\WorldModel\bin\Debug\net9.0\appsettings.json

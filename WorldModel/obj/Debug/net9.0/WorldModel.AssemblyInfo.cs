@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorldModel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a4b42471258f1eb0e78ad4a38803507f9809bed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12672ea7b47cd4e0a63be743d03c65af8813442b")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorldModel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorldModel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
