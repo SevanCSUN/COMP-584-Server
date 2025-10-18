@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Server.DTOs;
 using WorldModel;
 
 namespace Server.Controllers
@@ -21,6 +22,21 @@ namespace Server.Controllers
             return await context.Countries.ToListAsync();
         }
 
+        [HttpGet("population")]
+        public async Task<ActionResult<IEnumerable<CountryPopulation>>> GetCountryPopulation()
+        {
+            return await context.Countries.
+                Select(c => new CountryPopulation
+                {
+                    id = c.Id,
+                    name = c.Name,
+                    iso2 = c.Iso2,
+                    iso3 = c.Iso3,
+                    population = c.Cities.Sum(city => city.Population)
+                }).
+                ToListAsync();
+        }
+
         // GET: api/Countries/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Country>> GetCountry(int id)
@@ -33,6 +49,19 @@ namespace Server.Controllers
             }
 
             return country;
+        }
+
+        [HttpGet("population/{id}")]
+        public ActionResult<CountryPopulation> GetCountryPopulation(int id)
+        {
+            return context.Countries.Select(country => new CountryPopulation
+            {
+                id = country.Id,
+                name = country.Name,
+                iso2 = country.Iso2,
+                iso3 = country.Iso3,
+                population = country.Cities.Sum(city => city.Population)
+            }).Single(c => c.id == id);
         }
 
         // PUT: api/Countries/5
