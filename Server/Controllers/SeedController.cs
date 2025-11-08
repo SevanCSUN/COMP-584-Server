@@ -1,6 +1,7 @@
 ﻿using CsvHelper;
 using CsvHelper.Configuration;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Server.Data;
@@ -12,7 +13,10 @@ namespace Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class SeedController(Comp584Context context, IHostEnvironment environment) : ControllerBase
+    public class SeedController(Comp584Context context, IHostEnvironment environment, 
+        RoleManager<IdentityRole> roleManager, UserManager<WorldModelUsers> userManager,
+        IConfiguration configuration
+        ) : ControllerBase
     {
         string _pathName = Path.Combine(environment.ContentRootPath, "Data/worldcities.csv");
         [HttpPost("Countries")]
@@ -88,6 +92,49 @@ namespace Server.Controllers
 
             return new JsonResult(cityCount);
             
+        }
+
+        [HttpPost("Users")]
+        public async Task<ActionResult> PostUsers()
+        {
+            string administrator = "administrator";
+            string registeredUser = "registeredUser";
+
+            if (!await roleManager.RoleExistsAsync(administrator))
+            {
+                await roleManager.CreateAsync(new IdentityRole(administrator));
+            }
+
+            if (!await roleManager.RoleExistsAsync(registeredUser))
+            {
+                await roleManager.CreateAsync(new IdentityRole(registeredUser));
+            }
+
+            WorldModelUsers adminUser = new()
+            {
+                UserName = "admin",
+                Email = "admin@example.com",
+                EmailConfirmed = true,
+                LockoutEnabled = false,
+                SecurityStamp = Guid.NewGuid().ToString()
+            };
+
+            await userManager.CreateAsync(adminUser, configuration["DefaultPasswords:admin"]!);
+            await userManager.AddToRoleAsync(adminUser, administrator);
+
+            WorldModelUsers regularUser = new()
+            {
+                UserName = "user",
+                Email = "user@example.com",
+                EmailConfirmed = true,
+                LockoutEnabled = false,
+                SecurityStamp = Guid.NewGuid().ToString()
+            };
+
+            await userManager.CreateAsync(regularUser, configuration["DefaultPasswords:user"]!);
+            await userManager.AddToRoleAsync(regularUser, registeredUser);
+
+            return Ok();
         }
     }
 }
