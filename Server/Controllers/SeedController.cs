@@ -120,6 +120,7 @@ namespace Server.Controllers
             };
 
             await userManager.CreateAsync(adminUser, configuration["DefaultPasswords:admin"]!);
+            
             await userManager.AddToRoleAsync(adminUser, administrator);
 
             WorldModelUsers regularUser = new()

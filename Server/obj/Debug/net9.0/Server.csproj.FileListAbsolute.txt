@@ -287,5 +287,3 @@ C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\bin\Debug\net9.0
 C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\bin\Debug\net9.0\System.Formats.Asn1.dll
-C:\Users\ss300919\source\repos\SevanCSUN\COMP-584-Server\Server\bin\Debug\net9.0\System.Text.Json.dll

@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "Server.Controllers.AdminController",
+    "Method": "Login",
+    "RelativePath": "api/Admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "Server.DTOs.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Server.Controllers.CitiesController",
     "Method": "GetCities",
     "RelativePath": "api/Cities",
